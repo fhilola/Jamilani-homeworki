@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.container{
+        width: 100%;
+        max-width: 1200px;
+        margin:0 auto;
+        padding: 0 20px;
+      }
+      @media only screen and (max-width:230px) {
+          .container{
+              max-width: 230px;
+          }
+   
+}
